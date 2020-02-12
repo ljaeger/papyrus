@@ -11,4 +11,9 @@ public class DashboardController {
     public String getHomePage(Model model) {
         return "index";
     }
+
+    @GetMapping(value="/scroll")
+    public String getSrollPage(Model model) {
+        return "scroll";
+    }
 }

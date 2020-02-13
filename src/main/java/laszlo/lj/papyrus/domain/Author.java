@@ -3,7 +3,7 @@ package laszlo.lj.papyrus.domain;
 import lombok.Data;
 
 @Data
-public class User {
+public class Author {
     private long id;
     private String firstName;
     private String lastName;

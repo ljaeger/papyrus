@@ -24,8 +24,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'com.h2database:h2:1.4.191'
-	compileOnly 'org.projectlombok:lombok'
 	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:2.4.1'
+	implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity4:3.0.4.RELEASE'
+	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'mysql:mysql-connector-java'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {

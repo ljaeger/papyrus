@@ -16,4 +16,9 @@ public class DashboardController {
     public String getSrollPage(Model model) {
         return "scroll";
     }
+
+    @GetMapping(value="/login")
+    public String getLoginPage(Model model){
+        return "login";
+    }
 }
